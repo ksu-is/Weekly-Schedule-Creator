@@ -7,6 +7,6 @@
 - [x] Tested repository code
 # Sprint 2: 
 - [] Begin finalizing selection of code inspirations
-- [] 
-- 
+- [] Fork from code inspirations
+- [] Make adjustments and begin progressing with coding
 # Sprint 3:
