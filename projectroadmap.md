@@ -6,7 +6,7 @@
 - [x] Create a project road map
 - [x] Tested repository code
 # Sprint 2: 
-- [] Begin finalizing selection of code inspirations
+- [x] Begin finalizing selection of code inspirations ( https://github.com/techwithtim/Schedule-Creator )
 - [] Fork from code inspirations
 - [] Make adjustments and begin progressing with coding
 # Sprint 3:
