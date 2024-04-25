@@ -6,4 +6,7 @@
 - [x] Create a project road map
 - [x] Tested repository code
 # Sprint 2: 
+- [] Begin finalizing selection of code inspirations
+- [] 
+- 
 # Sprint 3:
