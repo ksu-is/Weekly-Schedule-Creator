@@ -8,7 +8,7 @@
 - [x] Complete Sprint #1 Quiz
 # Sprint 2: 
 - [x] Begin finalizing selection of code sources ( https://github.com/techwithtim/Schedule-Creator )
-- [] Fork from code sources
+- [x] Fork/copy from code source
 - [] Make adjustments and begin progressing with coding
 - [] Complete Sprint #2 Quiz
 # Sprint 3:
