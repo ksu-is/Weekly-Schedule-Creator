@@ -10,3 +10,7 @@
 - [] Fork from code inspirations
 - [] Make adjustments and begin progressing with coding
 # Sprint 3:
+- [] Schedule project presentation on Teams
+- [] Begin drafting presentation
+- [] Gather feedback
+- [] Finalize presentation
