@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Group Activity Scheduler</string>
+   <string>Weekly Schedule Creator</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="morning">
