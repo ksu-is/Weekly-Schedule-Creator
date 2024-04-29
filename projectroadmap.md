@@ -7,10 +7,10 @@
 - [x] Tested repository code
 - [x] Complete Sprint #1 Quiz
 # Sprint 2: 
-- [x] Begin finalizing selection of code sources ( https://github.com/techwithtim/Schedule-Creator )
+- [x] Begin finalizing selection of code sources ( https://github.com/Boanerges7/school_timetable/tree/master )
 - [x] Fork/copy from code source
-- [] Make adjustments and begin progressing with coding
-- [] Complete Sprint #2 Quiz
+- [x] Make adjustments and begin progressing with coding
+- [x] Complete Sprint #2 Quiz
 # Sprint 3:
 - [x] Schedule project presentation on Teams
 - [] Begin drafting presentation
