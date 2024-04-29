@@ -5,3 +5,4 @@ How this program will work is that it will go down each day of the week and let 
 
 # Ofiicial Source Code Referenced
 https://github.com/Boanerges7/school_timetable/tree/master
+https://boanerges.hashnode.dev/build-a-school-timetable-with-python-cjy35y05t0003pes1h53g8dvp
