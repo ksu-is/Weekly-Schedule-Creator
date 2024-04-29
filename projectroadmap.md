@@ -13,7 +13,7 @@
 - [x] Complete Sprint #2 Quiz
 # Sprint 3:
 - [x] Schedule project presentation on Teams
-- [ ] Create powerpoint splash screen
-- [] Begin drafting presentation
+- [x] Create powerpoint splash screen (edited a couple times after D2L submission)
+- [x] Begin drafting presentation
 - [] Gather feedback
 - [] Finalize presentation
