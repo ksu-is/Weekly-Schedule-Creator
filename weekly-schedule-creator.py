@@ -64,9 +64,9 @@ def fill_out_subjects_list():
 
 def ask_hour():
 	"""Ask hour to user"""
-	print(f'Subjects list: {subjects_list}')
+	print(f'Tasks and activities list: {subjects_list}')
 
-	print(f'Planning time: {start_hour}:00-{next_hour}:00')
+	print(f'Time frame: {start_hour}:00-{next_hour}:00')
 	user_answer = input('What task or activity do you want to do here? ')
 
 	return user_answer
