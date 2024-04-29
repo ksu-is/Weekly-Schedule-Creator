@@ -13,6 +13,7 @@
 - [x] Complete Sprint #2 Quiz
 # Sprint 3:
 - [x] Schedule project presentation on Teams
+- [ ] Create powerpoint splash screen
 - [] Begin drafting presentation
 - [] Gather feedback
 - [] Finalize presentation
