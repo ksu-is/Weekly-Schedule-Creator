@@ -6,11 +6,11 @@ import csv
 subjects_list = []
 start_hour = 8 # school start at 8.am
 next_hour = 9 # 1rst next hour is 9.am
-school_days = [
+week_days = [
 	'Sunday',
 	'Monday',
 	'Tuesday',
-	'wednesday',
+	'Wednesday',
 	'Thursday',
 	'Friday',
 	'Saturday'
@@ -23,7 +23,7 @@ subject_hour_count = {}
 
 
 # 1rst method
-# def fill_in_subjects_list():
+#def fill_in_subjects_list():
 # 	"""Ask user subjects and fill in subjects list"""
 
 # 	enter_another_subject = True
@@ -47,8 +47,8 @@ subject_hour_count = {}
 def fill_out_subjects_list():
 	"""Ask user subjects and fill in subjects list"""
 
-	subjects = input('Type all subjects you want add in subjects list\
-and separate them by comma: ') # we collect all subjects
+	subjects = input('Welcome to your Weekly Schedule Creator using Python! Please insert all tasks and activities you would like to complete this week. Seperate each subject with a comma: ')
+#and separate them by comma: ') # we collect all subjects
 
 	the_subjects = subjects.replace(', ', ',') # remove space after comma
 
@@ -66,8 +66,8 @@ def ask_hour():
 	"""Ask hour to user"""
 	print(f'Subjects list: {subjects_list}')
 
-	print(f'Planning time: {start_hour}h-{next_hour}h')
-	user_answer = input('What\'s subject do you want put here? ')
+	print(f'Planning time: {start_hour}:00-{next_hour}:00')
+	user_answer = input('What task or activity do you want to do here? ')
 
 	return user_answer
 
@@ -76,7 +76,7 @@ def fill_in_timetable():
 	global start_hour
 	global next_hour
 
-	for day in school_days:
+	for day in week_days:
 		# Reset start and next hour
 		the_hour = {}
 		time = 0
@@ -87,11 +87,11 @@ def fill_in_timetable():
 		print(f'{day.capitalize()} timetable')
 		print('---------------------------\n')
 
-		while time < 4: # Suppose we've 4hours course/day (you can change it)
+		while time < 12: # Suppose we've 4hours course/day (you can change it)
 
-			hour_format = f'{start_hour}h-{next_hour}h' # format time slot
+			hour_format = f'{start_hour}:00-{next_hour}:00' # format time slot
 			# it's represent 8 hours/per day for school
-			if time == 2: # if it's a midday (12.am), make a break
+			if time == 12: # if it's a midday (12.am), make a break
 				# Add a break in timetable with 'Break time' as inscription
 				subject_per_slot[hour_format] = ['Break time']
 
@@ -106,8 +106,8 @@ def fill_in_timetable():
 
 				# Check that subject chosen by user is in subjects list
 				while not chosen_subject in subjects_list:
-					print(f'{chosen_subject} is not in subjects list.')
-					print('Choose another subject.')
+					print(f'{chosen_subject} is not in your planned tasks and activities. Stay focused!')
+					print('Choose another task or activity.')
 					chosen_subject = ask_hour().capitalize()
 
 				# Add hour format while making sure we avoid duplicate
@@ -142,7 +142,7 @@ with open(timetable_path, 'w') as timetable_file:
 
 	# Write headers into csv file
 	csv_headers = ['Hours']
-	csv_headers.extend(school_days)
+	csv_headers.extend(week_days)
 	timetable_writing.writerow(csv_headers)
 
 	# Write content into csv file
@@ -151,11 +151,11 @@ with open(timetable_path, 'w') as timetable_file:
 		concerned_subjects_list = []
 
 		if concerned_subjects == ['Break time']:
-			for x in range(0, len(school_days)):
+			for x in range(0, len(week_days)):
 				concerned_subjects_list.append('Break time')
 		else:
 			concerned_subjects_list = concerned_subjects
 
 		final_line = time_line + concerned_subjects_list
 		timetable_writing.writerow(final_line)
-	print('Your timetable is ready')
+	print('Your week schedule is ready! Please open the timetable.csv file.')
