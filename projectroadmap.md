@@ -14,6 +14,7 @@
 # Sprint 3:
 - [x] Schedule project presentation on Teams
 - [x] Create powerpoint splash screen (edited a couple times after D2L submission)
+- [x] Complete coding
 - [x] Begin drafting presentation
 - [] Gather feedback
 - [] Finalize presentation
