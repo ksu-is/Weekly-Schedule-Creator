@@ -8,7 +8,7 @@ How this program will work is that it will go down each day of the week and let 
 
 -Second, extract or uncompress the zip file so that a folder is created. This helps with creating your official weekly schedule table file
 
--Third, code and add in your weekly tasks and activities according to the hours. Afterwards, look into the app's folder and find your weeklyschedule.cvs file!
+-Finally, run the .py file and add in your weekly tasks and activities according to the hours. Afterwards, look into the app's folder and find your weeklyschedule.cvs file! You can open this with excel or any other similar softwares.
 
 # Ofiicial Source Code Referenced
 https://github.com/Boanerges7/school_timetable/tree/master
