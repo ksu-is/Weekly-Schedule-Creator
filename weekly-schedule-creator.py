@@ -84,7 +84,7 @@ def fill_in_timetable():
 		next_hour = 9
 
 		print('\n---------------------------')
-		print(f'{day.capitalize()} timetable')
+		print(f'{day.capitalize()} weeekly schedule')
 		print('---------------------------\n')
 
 		while time < 12: # Suppose we've 4hours course/day (you can change it)
@@ -134,7 +134,7 @@ fill_out_subjects_list()
 fill_in_timetable()
 print(f'Subject per slot: {subject_per_slot}')
 
-timetable_path = pathlib.Path.cwd() / 'timetable.csv'
+timetable_path = pathlib.Path.cwd() / 'weeklyschedule.csv'
 
 # Now, let's write process to save timetable into a csv file
 with open(timetable_path, 'w') as timetable_file:
